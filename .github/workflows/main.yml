@@ -34,4 +34,5 @@ jobs:
         run: |
 
          pip3 install --user django
+         cd airline0
          python3 manage.py test
